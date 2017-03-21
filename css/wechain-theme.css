@@ -1,0 +1,419 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700|Poppins:400,600');
+*{
+	transition: all .3s ease-out;
+}
+
+body{
+	background: rgb(38,48,63); /* Old browsers */
+	background: -moz-linear-gradient(-45deg, rgba(38,48,63,1) 0%, rgba(31,39,51,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, rgba(38,48,63,1) 0%,rgba(31,39,51,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, rgba(38,48,63,1) 0%,rgba(31,39,51,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26303f', endColorstr='#1f2733',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+}
+
+h1,h2,h3{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+h4,h5,h6{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+.navbar-toggle{
+	float: left;
+	height: 42px;
+	width: 42px;
+	padding: 10px 9px;
+	border-radius: 21px;
+	border: 0 solid transparent;
+}
+.brand-header{
+	width: 100%;
+	text-align: center;
+}
+.brand{
+	display: inline-block;
+	float: none;
+	margin: 0 auto;
+	color: #fafafa !important;
+}
+.wechain{
+	font-size: 1.8rem !important;
+	color: pink;
+	margin: 0;
+}
+.navbar-default{
+    background-color: rgba(0, 0, 0, 0.14);
+    padding: 10px 15px 0 15px;
+    border: 0px solid;
+    border-color: transparent;
+}
+.navbar-default .navbar-collapse, {
+    border-color: transparent;
+    margin-top: 12px;
+}
+.navbar-nav {
+    margin: 16px -15px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: rgba(255,255,255,.8);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    transition: all .2s ease-out;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: rgba(255,255,255,1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand {
+    margin-left: 0;
+    border-bottom: 3px solid;
+    border-color: pink;
+    padding-left: 0;
+    padding-right: 0;
+}
+.blue{
+	margin-top: 60px;
+}
+.light-title{
+	color: #fafafa;
+	font-size: 40px;
+}
+.light-text{
+	color: #fafafa;
+	font-size: 20px;
+}
+.second-title{
+	font-size: 64px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2ff6b+0,ff6b8b+100 */
+	background: rgb(242,255,107); /* Old browsers */
+	background: -moz-linear-gradient(-45deg, rgba(242,255,107,1) 0%, rgba(255,107,139,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, rgba(242,255,107,1) 0%,rgba(255,107,139,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, rgba(242,255,107,1) 0%,rgba(255,107,139,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2ff6b', endColorstr='#ff6b8b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent;
+	text-transform: lowercase;
+	text-align: center;
+}
+.first-title{
+	font-size: 64px;
+	background: rgb(0,172,252); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(0,172,252,1) 0%, rgba(40,255,180,1) 65%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(0,172,252,1) 0%,rgba(40,255,180,1) 65%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(0,172,252,1) 0%,rgba(40,255,180,1) 65%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00acfc', endColorstr='#28ffb4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent;
+	text-transform: lowercase;
+	text-align: center;
+}
+.first-box{
+	padding: 8% 0;
+}
+.second-box{
+	padding: 6% 0 3% 0;
+}
+.circles-box{
+	margin-top: 64px;
+	margin-bottom: 64px;
+	background-image: url('../img/bg-circles.svg');
+	background-position: top center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.third-box{
+	position: relative;
+	width: 85%;
+	max-width: 770px;
+	margin: 20px auto;
+	padding: 6% 18% 0 18%;
+	text-align: center;
+}
+.fourth-box{
+	position: relative;
+	width: 85%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 16% 6% 16%;
+	text-align: center;
+}
+.projects-box{
+	visibility: visible;
+	display: block;
+	width: 100%;
+	height: 400px;
+    margin: 0 auto 72px auto;
+    padding: 0;
+}
+.circle-project-box{
+	display: inline-block;
+	float: left;
+	width: 250px;
+	height: 250px;
+	border-width: 3px;
+    border-style: solid;
+	border-radius: 50%;
+}
+.circle-project-box-1{
+	margin-left: -6%;
+	margin-top: -22px;
+	padding: 8px;
+	width: 220px;
+	height: 220px;
+    border-color: #F2FF6B;
+}
+.circle-project-box-2{
+	margin-top: 72px;
+	margin-left: -85px;
+	padding: 5px;
+	width: 200px;
+	height: 200px;
+	border-color: #FF6B8B;
+}
+.circle-project-box-3{
+	margin-top: 24px;
+	margin-left: -18px;
+	margin-right: 0px;
+	padding: 10px;
+	border-color: #F2FF6B;
+}
+.circle-project-box-4{
+	margin-top: 48px;
+	margin-left: -26px;
+	padding: 10px;
+	border-color: #FF6B8B;
+}
+.circle-project-box-5{
+	width: 220px;
+	height: 220px;
+	margin-top: 10px;
+	margin-left: -18px;
+	padding: 8px;
+	border-width: 3px;
+    border-style: solid;
+	border-color: #F2FF6B;
+}
+.circle-image{
+	width: 100%;
+	opacity: .85;
+	transition: all .2s ease-out;
+}
+.circle-image:hover,
+.circle-image:focus{
+	opacity: 1;
+}
+.dark-title{
+	font-size: 40px;
+	font-weight: 600;
+}
+.dark-text{
+	font-size: 20px;
+}
+.first-text{
+	color: #fafafa;
+	font-size: 30px;
+	text-align: center;
+}
+
+.technologies-box{
+	border: 1px solid rgba(255,255,255,.7);
+	margin: 8px auto;
+    padding: 16px;
+    border-radius: 16px;
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 236px;
+    text-align: center;
+    color: #fafafa;
+}
+.color-cold{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00acfc+0,28ffb4+100 */
+	background: rgb(0,172,252); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(0,172,252,1) 0%, rgba(40,255,180,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(0,172,252,1) 0%,rgba(40,255,180,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(0,172,252,1) 0%,rgba(40,255,180,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00acfc', endColorstr='#28ffb4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent;
+}
+.btn{
+	margin: 3% 5%;
+	padding: 3% 5%;
+	text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 64px;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0);
+    transition: all .2s ease-out;
+}
+.btn:hover,
+.btn:active,
+.btn:focus{
+    outline: none;
+    outline-offset: 0;
+    box-shadow: 0 0 16px 0 rgba(0,0,0,.16);
+}
+.btn-transparent-cyan{
+	display: block;
+    margin: 16px auto;
+    text-align: center;
+    border-radius: 64px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #4AE4FF;
+    background-color: transparent;
+    border-color: #4AE4FF;
+    transition: all .2s ease-out;
+}
+.btn-transparent-cyan:hover,
+.btn-transparent-cyan:active{
+    color: #fafafa;
+    background-color: #4AE4FF;
+}
+.btn-examples{
+	display: inline-block;
+    font-size: 16px;
+    padding: 8px 16px 7px 16px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255,255,255,.8);
+    transition: all .2s ease-out;
+}
+.btn-examples:hover,
+.btn-examples:focus{
+    background-color: rgba(0, 0, 0, 0.24);
+    color: rgba(255,255,255,1);
+}
+.light-circle{
+	background: url('../img/circle-light.svg');
+	background-size: 200%;
+	background-repeat: no-repeat;
+	background-position-y:100%;
+	background-position-x: center;
+}
+footer{
+	background: rgba(0,0,0,.24);
+    padding: 24px 0;
+    border-top: 1px solid rgba(255,255,255,.1);
+    color: rgba(255,255,255,.6);
+    font-size: 1.2rem;
+}
+.img-footer{
+	display: block;
+	width: 50%;
+	opacity: .7;
+}
+.startup-mendoza-brand{
+	max-width: 300px;
+	min-width: 270px;
+	margin: 18px 0;
+}
+.tween-brand{
+	max-width: 104px;
+	min-width: 100px;
+	float: right;
+	margin: 8px 0;
+}
+@media (max-width: 970px){
+	.projects-box{
+		display: block;
+		position: relative;
+		width: 80%;
+	    height: 450px;
+	    bottom: 0;
+	    margin: 8px auto 24px;
+	    padding: 0 16%;
+	}
+	.circles-box{
+		background-size: contain;
+	}
+	.circle-project-box-1,
+	.circle-project-box-2,
+	.circle-project-box-3,
+	.circle-project-box-4,
+	.circle-project-box-5{
+		position: relative;
+	    display: inline-block;
+	    width: 45%;
+	    height: 45%;
+	    max-width: 175px;
+	    max-height: 175px;
+	    margin-top: 0px;
+	    margin-left: 0px;
+	    margin-right: 0px;
+	    margin: 5px;
+	    padding: 4px;
+	    border-width: 0px;
+	    border-color: transparent;
+	}
+	.third-box {
+	    padding: 16% 0% 56px 0%;
+	    width: 60%;
+	}
+	.fourth-box {
+	    padding: 20px 75px 30px 75px;
+	    margin:0 auto 8px auto;
+	}
+}
+@media (max-width: 767px) {
+	.container>.navbar-header {
+	    margin-right: 0px;
+	    margin-left: 0px;
+	}
+	.navbar-default{
+		background-color: #232c3a;
+	}
+	.blue{
+		margin-top: 80px;
+	}
+	.circles-box{
+		background-size: cover;
+	}
+	.projects-box{
+		width: 100%;
+		height: 475px;
+		margin: 16px auto;
+    	padding: 0 7%;
+	}
+	.light-circle{
+		background: url('../img/circle-light.svg');
+		background-size: 500%;
+		background-repeat: no-repeat;
+		background-position-y:100%;
+		background-position-x: center;
+	}
+	.first-title{
+		font-size: 4.8rem;
+	}
+	.first-text{
+		font-size: 2.2rem;
+	}
+	.second-title{
+		font-size: 4.2rem;
+	}
+	.third-box {
+	    padding: 16% 0% 56px 0%;
+	    width: 70%;
+	}
+	.fourth-box {
+	    padding: 30px 7%;
+	    margin: 0 auto;
+	}
+	.startup-mendoza-brand{
+		max-width: 300px;
+		min-width: 270px;
+		margin: 8px auto;
+	}
+	.tween-brand{
+		max-width: 104px;
+		min-width: 100px;
+		float: none;
+		margin: 8px auto;
+	}
+}

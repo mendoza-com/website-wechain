@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1001px" height="1495px" viewBox="0 0 1001 1495" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00C6FF" offset="0%"></stop>
+            <stop stop-color="#24EBAA" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="1.05826688%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#F2FF6B" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F8C079" stop-opacity="0.6" offset="52.6077167%"></stop>
+            <stop stop-color="#FF6B8B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-220.000000, -1171.000000)">
+            <g id="Group-8" transform="translate(220.000000, 1171.000000)">
+                <circle id="Oval-2" fill="url(#linearGradient-1)" cx="500" cy="500" r="500"></circle>
+                <circle id="Oval-2-Copy" fill="url(#linearGradient-2)" cx="501" cy="995" r="500"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
